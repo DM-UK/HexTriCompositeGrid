@@ -1,4 +1,4 @@
-package trianglegrid;
+package hextrigrid.grid;
 
 public class Edge {
     public static final int NORTH_WEST = 0;

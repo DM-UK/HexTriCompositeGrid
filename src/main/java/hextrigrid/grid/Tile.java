@@ -1,4 +1,4 @@
-package hexatriangle.grid;
+package hextrigrid.grid;
 
 public class Tile {
 }

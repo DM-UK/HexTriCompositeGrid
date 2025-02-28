@@ -1,4 +1,4 @@
-package hextrigrid.grid.tri;
+package hextrigrid.grid.triangle;
 
 import hextrigrid.grid.Edge;
 import hextrigrid.grid.Vertex;

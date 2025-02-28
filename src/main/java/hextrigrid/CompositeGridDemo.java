@@ -1,17 +1,15 @@
 package hextrigrid;
 
-import hextrigrid.grid.DemoHexaTriagonalGridRenderer;
-import hextrigrid.grid.HexaTriagonalGrid;
+import hextrigrid.grid.composite.CompositeGrid;
 
 import javax.swing.*;
 import java.awt.*;
 
-public class HexaTriangleGridDemo {
-    HexaTriagonalGrid grid = new HexaTriagonalGrid(7,7);
-    private DemoHexaTriagonalGridRenderer renderer = new DemoHexaTriagonalGridRenderer(grid, 60);
-    //private HexaTriagonalGridRenderer renderer = new HexaTriagonalGridRenderer(grid, 60);
+public class CompositeGridDemo {
+    CompositeGrid grid = new CompositeGrid(7,7);
+    private CompositeGridDemoRenderer renderer = new CompositeGridDemoRenderer(grid, 60);
 
-    public HexaTriangleGridDemo()
+    public CompositeGridDemo()
     {
         createAndShowGUI();
     }
@@ -38,6 +36,6 @@ public class HexaTriangleGridDemo {
     }
 
     public static void main(String[] args) {
-        new HexaTriangleGridDemo();
+        new CompositeGridDemo();
     }
 }

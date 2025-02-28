@@ -1,7 +1,7 @@
 package hextrigrid.grid.composite;
 
 import hextrigrid.grid.Tile;
-import hextrigrid.grid.tri.TriangleGrid;
+import hextrigrid.grid.triangle.TriangleGrid;
 
 import java.awt.*;
 
@@ -9,7 +9,7 @@ import java.awt.*;
  * Represents a composite grid combining hexagonal and triangular structures.
  * The hexagonal grid is embedded within a triangular grid.
  */
-public class HexTriCompositeGrid {
+public class CompositeGrid {
     private final TriangleGrid triangleGrid;
     private final int gridWidth;
     private final int gridHeight;
@@ -21,7 +21,7 @@ public class HexTriCompositeGrid {
      * @param gridWidth  The number of hexagonal columns in the grid.
      * @param gridHeight The number of hexagonal rows in the grid.
      */
-    public HexTriCompositeGrid(int gridWidth, int gridHeight) {
+    public CompositeGrid(int gridWidth, int gridHeight) {
         this.gridWidth = gridWidth;
         this.gridHeight = gridHeight;
         // Creates a TriangleGrid with adjusted dimensions to fit the hexagonal layout.

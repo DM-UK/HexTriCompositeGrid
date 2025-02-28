@@ -1,4 +1,4 @@
-package hextrigrid.grid;
+package hextrigrid.grid.triangle;
 
 import java.awt.*;
 
