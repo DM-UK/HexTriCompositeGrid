@@ -16,7 +16,7 @@ public class CompositeGrid {
     private final Tile[][] hexagonTiles;
 
     /**
-     * Constructs a composite grid with the given width and height.
+     * Construct a composite grid with the given width and height.
      *
      * @param gridWidth  The number of hexagonal columns in the grid.
      * @param gridHeight The number of hexagonal rows in the grid.
